@@ -34,7 +34,7 @@ public interface UserControllerApi {
             @Valid @RequestBody UserCreateRequest request
     );
 
-    @PatchMapping
+    @PatchMapping("/{id}")
     ResponseEntity<UserResponse> updateUser(@RequestBody @PathVariable Long id );
 
 
