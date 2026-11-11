@@ -7,11 +7,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.sena.controllabs.dto.EquipmentResponse;
 import com.sena.controllabs.dto.LoanCreateRequest;
 import com.sena.controllabs.dto.LoanResponse;
-import com.sena.controllabs.dto.UserCreateRequest;
-import com.sena.controllabs.dto.UserResponse;
 
 import jakarta.validation.Valid;
 

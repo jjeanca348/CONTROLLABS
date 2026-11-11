@@ -1,6 +1,5 @@
 package com.sena.controllabs.controller;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 import org.springframework.http.HttpStatus;
@@ -9,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.sena.controllabs.dto.EquipmentCreateRequest;
 import com.sena.controllabs.dto.EquipmentResponse;
-import com.sena.controllabs.dto.UserResponse;
 
 import jakarta.validation.Valid;
 
